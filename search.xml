@@ -3,9 +3,7 @@
   <entry>
     <title>Hello World</title>
     <url>/post/4a17b156.html</url>
-    <content><![CDATA[<h1 id="welcome-to-my-blog"><a href="#welcome-to-my-blog" class="headerlink" title="welcome to my blog!"></a><center>welcome to my <a href="https://leoy430.github.io/">blog</a>!</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1999552137&auto=1&height=66"></iframe>
-
-<h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a><center>个人简介</h2><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202008%2F09%2F20200809123656_zvPTV.thumb.400_0.gif&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1683949637&t=78c2bf988d200280854e0924628184e0" alt="img" style="zoom:50%;" />
+    <content><![CDATA[<h1 id="welcome-to-my-blog"><a href="#welcome-to-my-blog" class="headerlink" title="welcome to my blog!"></a><center>welcome to my <a href="https://leoy430.github.io/">blog</a>!</h1><h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a><center>个人简介</h2><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202008%2F09%2F20200809123656_zvPTV.thumb.400_0.gif&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1683949637&t=78c2bf988d200280854e0924628184e0" alt="img" style="zoom:50%;" />
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">姓名：LeoY</span><br><span class="line">性别： 男</span><br><span class="line">年龄：19</span><br><span class="line">故乡：四川省成都市</span><br><span class="line">现居：四川省内江市</span><br><span class="line">专业：计算机科学与技术</span><br><span class="line">爱好：无（保密）</span><br></pre></td></tr></table></figure>
 
@@ -32,5 +30,51 @@
 <p><strong>目前正在整理各种相关资料，欢迎关注博客或者关注我的微信公众号</strong></p>
 <p><img src="https://s2.loli.net/2023/04/13/vjKXlMV69wgWAtp.jpg" alt="search.jpg"></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>笔记(一)</title>
+    <url>/post/62f6612.html</url>
+    <content><![CDATA[<h1 id="Vue框架基础"><a href="#Vue框架基础" class="headerlink" title="Vue框架基础"></a><center>Vue框架基础</h1><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><h3 id="一、引入Vue"><a href="#一、引入Vue" class="headerlink" title="一、引入Vue"></a>一、引入Vue</h3><h5 id="1-1-三种引入链接"><a href="#1-1-三种引入链接" class="headerlink" title="1.1 三种引入链接"></a>1.1 三种引入链接</h5><ul>
+<li><strong>Staticfile CDN（国内）</strong> : <a href="https://cdn.staticfile.org/vue/2.2.2/vue.min.js">https://cdn.staticfile.org/vue/2.2.2/vue.min.js</a></li>
+<li><strong>unpkg</strong>：<a href="https://unpkg.com/vue@2.6.14/dist/vue.min.js">https://unpkg.com/vue@2.6.14/dist/vue.min.js</a></li>
+<li><strong>cdnjs</strong> : <a href="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js">https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js</a></li>
+</ul>
+<h5 id="1-2-脚本引入书写"><a href="#1-2-脚本引入书写" class="headerlink" title="1.2 脚本引入书写"></a>1.2 脚本引入书写</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.staticfile.org/vue/2.2.2/vue.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">//src中的链接替换成1.1中的任一链接即可</span><br></pre></td></tr></table></figure>
+
+<h3 id="二、Vue模板语法"><a href="#二、Vue模板语法" class="headerlink" title="二、Vue模板语法"></a>二、Vue模板语法</h3><ul>
+<li>插值语法</li>
+<li>指令语法</li>
+</ul>
+<h5 id="2-1-插值语法"><a href="#2-1-插值语法" class="headerlink" title="2.1 插值语法"></a>2.1 插值语法</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">书写格式：</span><br><span class="line">&#123;&#123; 内容 &#125;&#125;      //中间内容为需绑定的数据</span><br></pre></td></tr></table></figure>
+
+<h5 id="2-2-指令语法"><a href="#2-2-指令语法" class="headerlink" title="2.2 指令语法"></a>2.2 指令语法</h5><ul>
+<li><p>常见的几种指令语法</p>
+<ul>
+<li>v-bind		缩写为:</li>
+<li>v-model		在 input、select、textarea、checkbox、radio 等表单控件元素上创建双向数据绑定</li>
+<li>v-on		缩写为@</li>
+</ul>
+</li>
+<li><p>常见的修饰符</p>
+<ul>
+<li><p>prevent</p>
+</li>
+<li><p>stop</p>
+</li>
+<li><p>caputer</p>
+</li>
+<li><p>passive</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
   </entry>
 </search>
