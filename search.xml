@@ -77,4 +77,42 @@
         <tag>笔记</tag>
       </tags>
   </entry>
+  <entry>
+    <title>见习day_01</title>
+    <url>/post/c57d136b.html</url>
+    <content><![CDATA[<h1 id="见习day-01"><a href="#见习day-01" class="headerlink" title="见习day_01"></a><center>见习day_01</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a><center>前言</h2><h3 id="一、企业招聘基本流程"><a href="#一、企业招聘基本流程" class="headerlink" title="一、企业招聘基本流程"></a>一、企业招聘基本流程</h3><ul>
+<li>简历</li>
+<li>笔试75</li>
+<li>口试难点表达</li>
+<li>机试&#x2F;人事面试&#x2F;不会收费</li>
+<li>实习二换一或者试用</li>
+</ul>
+<h3 id="二、企业软件项目生命周期"><a href="#二、企业软件项目生命周期" class="headerlink" title="二、企业软件项目生命周期"></a>二、企业软件项目生命周期</h3><img src="https://smms.app/image/Xxsr2I6Ad9HhU3O" alt="企业软件项目生命周期" style="zoom:50%;" />
+
+<h3 id="三、大厂企业技术体系"><a href="#三、大厂企业技术体系" class="headerlink" title="三、大厂企业技术体系"></a>三、大厂企业技术体系</h3><h3 id="四、补充"><a href="#四、补充" class="headerlink" title="四、补充"></a>四、补充</h3><h5 id="计算机专业方向选择"><a href="#计算机专业方向选择" class="headerlink" title="计算机专业方向选择"></a><center>计算机专业方向选择</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">- 前端</span><br><span class="line">  -- 平时喜欢页面设计和编码 HTML+CSS+JS</span><br><span class="line">- 后端（需求最大）</span><br><span class="line">  -- Java 逻辑思维，架构师</span><br><span class="line">  -- Go</span><br><span class="line">- UI设计</span><br><span class="line">  -- PS、画画、几乎不写代码</span><br><span class="line">- 测试</span><br><span class="line">  -- 耐心、喜欢尝试新事物、文档</span><br><span class="line">- 网络安全</span><br><span class="line">  -- 黑客、实施</span><br><span class="line">- 产品</span><br><span class="line">  -- 产品运营、需求等</span><br><span class="line">- 算法</span><br><span class="line">  -- 数学功底强、学历有优势等</span><br></pre></td></tr></table></figure>
+
+<h5 id="一个项目的标准发布流程"><a href="#一个项目的标准发布流程" class="headerlink" title="一个项目的标准发布流程"></a><center>一个项目的标准发布流程</h5><img src="https://smms.app/image/QW9oehalR7HBcDS" alt="一个项目的标准发布流程" style="zoom:50%;" />
+
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a><center>开始</h2><h3 id="一、jdk开发环境配置及IDEA安装"><a href="#一、jdk开发环境配置及IDEA安装" class="headerlink" title="一、jdk开发环境配置及IDEA安装"></a>一、jdk开发环境配置及IDEA安装</h3><ul>
+<li><a href="https://baijiahao.baidu.com/s?id=1749642961611694666&amp;wfr=spider&amp;for=pc">点我跳转安装配置步骤</a></li>
+</ul>
+<h4 id="1-1-jdk、jre、jvm区别？"><a href="#1-1-jdk、jre、jvm区别？" class="headerlink" title="1.1 jdk、jre、jvm区别？"></a>1.1 jdk、jre、jvm区别？</h4><p>开发Java程序步骤：编写代码，编译代码(.class文件)，运行(JVM java虚拟机运行)<br>JDK:	提供大量的开发工具包，包含JRE.<br>JRE: 	java程序运行的环境（提供了大量的核心类库），包含JVM.<br>JVM:   java虚拟机，运行。</p>
+<p><img src="https://s2.loli.net/2023/05/16/LvrjZe36yARaKzB.png" alt="jdk、jre、jvm区别.png"></p>
+<h3 id="二、IDEA配置及快捷键"><a href="#二、IDEA配置及快捷键" class="headerlink" title="二、IDEA配置及快捷键"></a>二、IDEA配置及快捷键</h3><ul>
+<li>插件方面：不建议使用汉化工具（Translate插件除外），会影响项目构建等</li>
+<li>软件界面：调整字体大小及界面整体，合适即可</li>
+<li>其它</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/** 企业中使用IDEA最常用的快捷键</span><br><span class="line"> * 1.快速生成main方法：psvm+enter</span><br><span class="line"> * 2.快速生成控制台输出语句：sout+enter</span><br><span class="line"> * 3.运行main方法:ctrl+<span class="built_in">shift</span>+f10</span><br><span class="line"> * 4.复制当前行到下一行：ctrl+d</span><br><span class="line"> * 5.删除当前行：ctrl+y</span><br><span class="line"> * 6.移动当前行到任意行位置：ctrl+<span class="built_in">shift</span>+↑/↓</span><br><span class="line"> * 7.在当前行下一行开空白行：<span class="built_in">shift</span>+enter</span><br><span class="line"> * 8.查找替换：ctrl+r</span><br><span class="line"> * 9.导入依赖包：alt+enter</span><br><span class="line"> */</span><br></pre></td></tr></table></figure>
+
+<h3 id="三、Maven配置"><a href="#三、Maven配置" class="headerlink" title="三、Maven配置"></a>三、Maven配置</h3><p><a href="https://www.cnblogs.com/pengpengdeyuan/p/14217772.html">点我跳转</a></p>
+]]></content>
+      <categories>
+        <category>见习日记</category>
+        <category>面试</category>
+      </categories>
+      <tags>
+        <tag>见习</tag>
+      </tags>
+  </entry>
 </search>
