@@ -32,43 +32,311 @@
 ]]></content>
   </entry>
   <entry>
-    <title>见习day_01</title>
-    <url>/post/c57d136b.html</url>
-    <content><![CDATA[<h1 id="见习day-01"><a href="#见习day-01" class="headerlink" title="见习day_01"></a><center>见习day_01</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a><center>前言</h2><h3 id="一、企业招聘基本流程"><a href="#一、企业招聘基本流程" class="headerlink" title="一、企业招聘基本流程"></a>一、企业招聘基本流程</h3><ul>
-<li>简历</li>
-<li>笔试75</li>
-<li>口试难点表达</li>
-<li>机试&#x2F;人事面试&#x2F;不会收费</li>
-<li>实习二换一或者试用</li>
-</ul>
-<h3 id="二、企业软件项目生命周期"><a href="#二、企业软件项目生命周期" class="headerlink" title="二、企业软件项目生命周期"></a>二、企业软件项目生命周期</h3><img src="https://s2.loli.net/2023/05/16/Xxsr2I6Ad9HhU3O.png" alt="企业软件项目生命周期.png" style="zoom:50%;">
-
-
-
-<h3 id="三、大厂企业技术体系"><a href="#三、大厂企业技术体系" class="headerlink" title="三、大厂企业技术体系"></a>三、大厂企业技术体系</h3><h3 id="四、补充"><a href="#四、补充" class="headerlink" title="四、补充"></a>四、补充</h3><h5 id="计算机专业方向选择"><a href="#计算机专业方向选择" class="headerlink" title="计算机专业方向选择"></a><center>计算机专业方向选择</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">- 前端</span><br><span class="line">  -- 平时喜欢页面设计和编码 HTML+CSS+JS</span><br><span class="line">- 后端（需求最大）</span><br><span class="line">  -- Java 逻辑思维，架构师</span><br><span class="line">  -- Go</span><br><span class="line">- UI设计</span><br><span class="line">  -- PS、画画、几乎不写代码</span><br><span class="line">- 测试</span><br><span class="line">  -- 耐心、喜欢尝试新事物、文档</span><br><span class="line">- 网络安全</span><br><span class="line">  -- 黑客、实施</span><br><span class="line">- 产品</span><br><span class="line">  -- 产品运营、需求等</span><br><span class="line">- 算法</span><br><span class="line">  -- 数学功底强、学历有优势等</span><br></pre></td></tr></table></figure>
-
-<h5 id="一个项目的标准发布流程"><a href="#一个项目的标准发布流程" class="headerlink" title="一个项目的标准发布流程"></a><center>一个项目的标准发布流程</h5><img src="https://smms.app/image/QW9oehalR7HBcDS" alt="一个项目的标准发布流程" style="zoom:50%;" />
-
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a><center>开始</h2><h3 id="一、jdk开发环境配置及IDEA安装"><a href="#一、jdk开发环境配置及IDEA安装" class="headerlink" title="一、jdk开发环境配置及IDEA安装"></a>一、jdk开发环境配置及IDEA安装</h3><ul>
-<li><a href="https://baijiahao.baidu.com/s?id=1749642961611694666&amp;wfr=spider&amp;for=pc">点我跳转安装配置步骤</a></li>
-</ul>
-<h4 id="1-1-jdk、jre、jvm区别？"><a href="#1-1-jdk、jre、jvm区别？" class="headerlink" title="1.1 jdk、jre、jvm区别？"></a>1.1 jdk、jre、jvm区别？</h4><p>开发Java程序步骤：编写代码，编译代码(.class文件)，运行(JVM java虚拟机运行)<br>JDK:	提供大量的开发工具包，包含JRE.<br>JRE: 	java程序运行的环境（提供了大量的核心类库），包含JVM.<br>JVM:   java虚拟机，运行。</p>
-<p><img src="https://s2.loli.net/2023/05/16/LvrjZe36yARaKzB.png" alt="jdk、jre、jvm区别.png"></p>
-<h3 id="二、IDEA配置及快捷键"><a href="#二、IDEA配置及快捷键" class="headerlink" title="二、IDEA配置及快捷键"></a>二、IDEA配置及快捷键</h3><ul>
-<li>插件方面：不建议使用汉化工具（Translate插件除外），会影响项目构建等</li>
-<li>软件界面：调整字体大小及界面整体，合适即可</li>
-<li>其它</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/** 企业中使用IDEA最常用的快捷键</span><br><span class="line"> * 1.快速生成main方法：psvm+enter</span><br><span class="line"> * 2.快速生成控制台输出语句：sout+enter</span><br><span class="line"> * 3.运行main方法:ctrl+<span class="built_in">shift</span>+f10</span><br><span class="line"> * 4.复制当前行到下一行：ctrl+d</span><br><span class="line"> * 5.删除当前行：ctrl+y</span><br><span class="line"> * 6.移动当前行到任意行位置：ctrl+<span class="built_in">shift</span>+↑/↓</span><br><span class="line"> * 7.在当前行下一行开空白行：<span class="built_in">shift</span>+enter</span><br><span class="line"> * 8.查找替换：ctrl+r</span><br><span class="line"> * 9.导入依赖包：alt+enter</span><br><span class="line"> */</span><br></pre></td></tr></table></figure>
-
-<h3 id="三、Maven配置"><a href="#三、Maven配置" class="headerlink" title="三、Maven配置"></a>三、Maven配置</h3><p><a href="https://www.cnblogs.com/pengpengdeyuan/p/14217772.html">点我跳转</a></p>
+    <title>正则表达式</title>
+    <url>/post/2f57a694.html</url>
+    <content><![CDATA[<h2 id="修饰符"><a href="#修饰符" class="headerlink" title="修饰符"></a>修饰符</h2><table>
+<thead>
+<tr>
+<th align="left">修饰符</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">i</td>
+<td align="left">执行对大小写不敏感的匹配。</td>
+</tr>
+<tr>
+<td align="left">g</td>
+<td align="left">执行全局匹配（查找所有匹配而非在找到第一个匹配后停止）。</td>
+</tr>
+<tr>
+<td align="left">m</td>
+<td align="left">执行多行匹配。</td>
+</tr>
+</tbody></table>
+<h2 id="方括号"><a href="#方括号" class="headerlink" title="方括号"></a>方括号</h2><p>方括号用于查找某个范围内的字符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">表达式</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">[abc]</td>
+<td align="left">查找方括号之间的任何字符。</td>
+</tr>
+<tr>
+<td align="left">[^abc]</td>
+<td align="left">查找任何不在方括号之间的字符。</td>
+</tr>
+<tr>
+<td align="left">[0-9]</td>
+<td align="left">查找任何从 0 至 9 的数字。</td>
+</tr>
+<tr>
+<td align="left">[a-z]</td>
+<td align="left">查找任何从小写 a 到小写 z 的字符。</td>
+</tr>
+<tr>
+<td align="left">[A-Z]</td>
+<td align="left">查找任何从大写 A 到大写 Z 的字符。</td>
+</tr>
+<tr>
+<td align="left">[A-z]</td>
+<td align="left">查找任何从大写 A 到小写 z 的字符。</td>
+</tr>
+<tr>
+<td align="left">[adgk]</td>
+<td align="left">查找给定集合内的任何字符。</td>
+</tr>
+<tr>
+<td align="left">[^adgk]</td>
+<td align="left">查找给定集合外的任何字符。</td>
+</tr>
+<tr>
+<td align="left">(red|blue|green)</td>
+<td align="left">查找任何指定的选项。</td>
+</tr>
+</tbody></table>
+<h2 id="元字符"><a href="#元字符" class="headerlink" title="元字符"></a>元字符</h2><p>元字符（Metacharacter）是拥有特殊含义的字符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">元字符</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">.</td>
+<td align="left">查找单个字符，除了换行和行结束符。</td>
+</tr>
+<tr>
+<td align="left">\w</td>
+<td align="left">查找单词字符。</td>
+</tr>
+<tr>
+<td align="left">\W</td>
+<td align="left">查找非单词字符。</td>
+</tr>
+<tr>
+<td align="left">\d</td>
+<td align="left">查找数字。</td>
+</tr>
+<tr>
+<td align="left">\D</td>
+<td align="left">查找非数字字符。</td>
+</tr>
+<tr>
+<td align="left">\s</td>
+<td align="left">查找空白字符。</td>
+</tr>
+<tr>
+<td align="left">\S</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">\b</td>
+<td align="left">匹配单词边界。</td>
+</tr>
+<tr>
+<td align="left">\B</td>
+<td align="left">匹配非单词边界。</td>
+</tr>
+<tr>
+<td align="left">\0</td>
+<td align="left">查找 NUL 字符。</td>
+</tr>
+<tr>
+<td align="left">\n</td>
+<td align="left">查找换行符。</td>
+</tr>
+<tr>
+<td align="left">\f</td>
+<td align="left">查找换页符。</td>
+</tr>
+<tr>
+<td align="left">\r</td>
+<td align="left">查找回车符。</td>
+</tr>
+<tr>
+<td align="left">\t</td>
+<td align="left">查找制表符。</td>
+</tr>
+<tr>
+<td align="left">\v</td>
+<td align="left">查找垂直制表符。</td>
+</tr>
+<tr>
+<td align="left">\xxx</td>
+<td align="left">查找以八进制数 xxx 规定的字符。</td>
+</tr>
+<tr>
+<td align="left">\xdd</td>
+<td align="left">查找以十六进制数 dd 规定的字符。</td>
+</tr>
+<tr>
+<td align="left">\uxxxx</td>
+<td align="left">查找以十六进制数 xxxx 规定的 Unicode 字符。</td>
+</tr>
+</tbody></table>
+<h2 id="量词"><a href="#量词" class="headerlink" title="量词"></a>量词</h2><table>
+<thead>
+<tr>
+<th align="left">量词</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">n+</td>
+<td align="left">匹配任何包含至少一个 n 的字符串。</td>
+</tr>
+<tr>
+<td align="left">n*</td>
+<td align="left">匹配任何包含零个或多个 n 的字符串。</td>
+</tr>
+<tr>
+<td align="left">n?</td>
+<td align="left">匹配任何包含零个或一个 n 的字符串。</td>
+</tr>
+<tr>
+<td align="left">n{X}</td>
+<td align="left">匹配包含 X 个 n 的序列的字符串。</td>
+</tr>
+<tr>
+<td align="left">n{X,Y}</td>
+<td align="left">匹配包含 X 至 Y 个 n 的序列的字符串。</td>
+</tr>
+<tr>
+<td align="left">n{X,}</td>
+<td align="left">匹配包含至少 X 个 n 的序列的字符串。</td>
+</tr>
+<tr>
+<td align="left">n$</td>
+<td align="left">匹配任何结尾为 n 的字符串。</td>
+</tr>
+<tr>
+<td align="left">^n</td>
+<td align="left">匹配任何开头为 n 的字符串。</td>
+</tr>
+<tr>
+<td align="left">?&#x3D;n</td>
+<td align="left">匹配任何其后紧接指定字符串 n 的字符串。</td>
+</tr>
+<tr>
+<td align="left">?!n</td>
+<td align="left">匹配任何其后没有紧接指定字符串 n 的字符串。</td>
+</tr>
+</tbody></table>
+<h2 id="RegExp-对象属性"><a href="#RegExp-对象属性" class="headerlink" title="RegExp 对象属性"></a>RegExp 对象属性</h2><table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">描述</th>
+<th align="left">FF</th>
+<th align="left">IE</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">global</td>
+<td align="left">RegExp 对象是否具有标志 g。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">ignoreCase</td>
+<td align="left">RegExp 对象是否具有标志 i。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">lastIndex</td>
+<td align="left">一个整数，标示开始下一次匹配的字符位置。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">multiline</td>
+<td align="left">RegExp 对象是否具有标志 m。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">source</td>
+<td align="left">正则表达式的源文本。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+</tbody></table>
+<h2 id="RegExp-对象方法"><a href="#RegExp-对象方法" class="headerlink" title="RegExp 对象方法"></a>RegExp 对象方法</h2><table>
+<thead>
+<tr>
+<th align="left">方法</th>
+<th align="left">描述</th>
+<th align="left">FF</th>
+<th align="left">IE</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">compile</td>
+<td align="left">编译正则表达式。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">exec</td>
+<td align="left">检索字符串中指定的值。返回找到的值，并确定其位置。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">test</td>
+<td align="left">检索字符串中指定的值。返回 true 或 false。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+</tbody></table>
+<h2 id="支持正则表达式的-String-对象的方法"><a href="#支持正则表达式的-String-对象的方法" class="headerlink" title="支持正则表达式的 String 对象的方法"></a>支持正则表达式的 String 对象的方法</h2><table>
+<thead>
+<tr>
+<th align="left">方法</th>
+<th align="left">描述</th>
+<th align="left">FF</th>
+<th align="left">IE</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">search</td>
+<td align="left">检索与正则表达式相匹配的值。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">match</td>
+<td align="left">找到一个或多个正则表达式的匹配。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">replace</td>
+<td align="left">替换与正则表达式匹配的子串。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left">split</td>
+<td align="left">把字符串分割为字符串数组。</td>
+<td align="left">1</td>
+<td align="left">4</td>
+</tr>
+</tbody></table>
 ]]></content>
       <categories>
-        <category>见习日记</category>
-        <category>面试</category>
+        <category>正则</category>
+        <category>笔记</category>
       </categories>
       <tags>
-        <tag>见习</tag>
+        <tag>正则</tag>
       </tags>
   </entry>
   <entry>
@@ -115,6 +383,46 @@
       </categories>
       <tags>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>见习day_01</title>
+    <url>/post/c57d136b.html</url>
+    <content><![CDATA[<h1 id="见习day-01"><a href="#见习day-01" class="headerlink" title="见习day_01"></a><center>见习day_01</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a><center>前言</h2><h3 id="一、企业招聘基本流程"><a href="#一、企业招聘基本流程" class="headerlink" title="一、企业招聘基本流程"></a>一、企业招聘基本流程</h3><ul>
+<li>简历</li>
+<li>笔试75</li>
+<li>口试难点表达</li>
+<li>机试&#x2F;人事面试&#x2F;不会收费</li>
+<li>实习二换一或者试用</li>
+</ul>
+<h3 id="二、企业软件项目生命周期"><a href="#二、企业软件项目生命周期" class="headerlink" title="二、企业软件项目生命周期"></a>二、企业软件项目生命周期</h3><img src="https://s2.loli.net/2023/05/16/Xxsr2I6Ad9HhU3O.png" alt="企业软件项目生命周期.png" style="zoom:50%;">
+
+
+
+<h3 id="三、大厂企业技术体系"><a href="#三、大厂企业技术体系" class="headerlink" title="三、大厂企业技术体系"></a>三、大厂企业技术体系</h3><h3 id="四、补充"><a href="#四、补充" class="headerlink" title="四、补充"></a>四、补充</h3><h5 id="计算机专业方向选择"><a href="#计算机专业方向选择" class="headerlink" title="计算机专业方向选择"></a><center>计算机专业方向选择</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">- 前端</span><br><span class="line">  -- 平时喜欢页面设计和编码 HTML+CSS+JS</span><br><span class="line">- 后端（需求最大）</span><br><span class="line">  -- Java 逻辑思维，架构师</span><br><span class="line">  -- Go</span><br><span class="line">- UI设计</span><br><span class="line">  -- PS、画画、几乎不写代码</span><br><span class="line">- 测试</span><br><span class="line">  -- 耐心、喜欢尝试新事物、文档</span><br><span class="line">- 网络安全</span><br><span class="line">  -- 黑客、实施</span><br><span class="line">- 产品</span><br><span class="line">  -- 产品运营、需求等</span><br><span class="line">- 算法</span><br><span class="line">  -- 数学功底强、学历有优势等</span><br></pre></td></tr></table></figure>
+
+<h5 id="一个项目的标准发布流程"><a href="#一个项目的标准发布流程" class="headerlink" title="一个项目的标准发布流程"></a><center>一个项目的标准发布流程</h5><img src="https://smms.app/image/QW9oehalR7HBcDS" alt="一个项目的标准发布流程" style="zoom:50%;" />
+
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a><center>开始</h2><h3 id="一、jdk开发环境配置及IDEA安装"><a href="#一、jdk开发环境配置及IDEA安装" class="headerlink" title="一、jdk开发环境配置及IDEA安装"></a>一、jdk开发环境配置及IDEA安装</h3><ul>
+<li><a href="https://baijiahao.baidu.com/s?id=1749642961611694666&amp;wfr=spider&amp;for=pc">点我跳转安装配置步骤</a></li>
+</ul>
+<h4 id="1-1-jdk、jre、jvm区别？"><a href="#1-1-jdk、jre、jvm区别？" class="headerlink" title="1.1 jdk、jre、jvm区别？"></a>1.1 jdk、jre、jvm区别？</h4><p>开发Java程序步骤：编写代码，编译代码(.class文件)，运行(JVM java虚拟机运行)<br>JDK:	提供大量的开发工具包，包含JRE.<br>JRE: 	java程序运行的环境（提供了大量的核心类库），包含JVM.<br>JVM:   java虚拟机，运行。</p>
+<p><img src="https://s2.loli.net/2023/05/16/LvrjZe36yARaKzB.png" alt="jdk、jre、jvm区别.png"></p>
+<h3 id="二、IDEA配置及快捷键"><a href="#二、IDEA配置及快捷键" class="headerlink" title="二、IDEA配置及快捷键"></a>二、IDEA配置及快捷键</h3><ul>
+<li>插件方面：不建议使用汉化工具（Translate插件除外），会影响项目构建等</li>
+<li>软件界面：调整字体大小及界面整体，合适即可</li>
+<li>其它</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/** 企业中使用IDEA最常用的快捷键</span><br><span class="line"> * 1.快速生成main方法：psvm+enter</span><br><span class="line"> * 2.快速生成控制台输出语句：sout+enter</span><br><span class="line"> * 3.运行main方法:ctrl+<span class="built_in">shift</span>+f10</span><br><span class="line"> * 4.复制当前行到下一行：ctrl+d</span><br><span class="line"> * 5.删除当前行：ctrl+y</span><br><span class="line"> * 6.移动当前行到任意行位置：ctrl+<span class="built_in">shift</span>+↑/↓</span><br><span class="line"> * 7.在当前行下一行开空白行：<span class="built_in">shift</span>+enter</span><br><span class="line"> * 8.查找替换：ctrl+r</span><br><span class="line"> * 9.导入依赖包：alt+enter</span><br><span class="line"> */</span><br></pre></td></tr></table></figure>
+
+<h3 id="三、Maven配置"><a href="#三、Maven配置" class="headerlink" title="三、Maven配置"></a>三、Maven配置</h3><p><a href="https://www.cnblogs.com/pengpengdeyuan/p/14217772.html">点我跳转</a></p>
+]]></content>
+      <categories>
+        <category>见习日记</category>
+        <category>面试</category>
+      </categories>
+      <tags>
+        <tag>见习</tag>
       </tags>
   </entry>
 </search>
